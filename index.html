@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recomendaciones — Servicio Dental HRA</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1f3c; color: #e8f4ff; min-height: 100vh; }
+  .header { background: #0a1628; border-bottom: 1px solid #1a3a6c; padding: 16px 24px; display: flex; align-items: center; gap: 16px; }
+  .header img { width: 48px; height: 48px; object-fit: contain; }
+  .header-text h1 { font-size: 15px; font-weight: 600; color: #e8f4ff; }
+  .header-text p { font-size: 12px; color: #7eb3d8; margin-top: 2px; }
+  .container { max-width: 800px; margin: 0 auto; padding: 32px 24px; }
+  .card { background: #132040; border: 1px solid #1e3a6e; border-radius: 12px; padding: 24px; margin-bottom: 20px; }
+  .card h2 { font-size: 14px; font-weight: 600; color: #7eb3d8; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+  .form-group { display: flex; flex-direction: column; gap: 6px; }
+  .form-group label { font-size: 12px; color: #7eb3d8; }
+  .form-group input, .form-group select { background: #0d1f3c; border: 1px solid #1e3a6e; border-radius: 8px; color: #e8f4ff; padding: 10px 12px; font-size: 13px; outline: none; }
+  .form-group input:focus, .form-group select:focus { border-color: #378add; }
+  .form-group select option { background: #0d1f3c; }
+  .api-row { margin-bottom: 16px; }
+  .btn { background: #1d6fa4; border: none; border-radius: 8px; color: white; cursor: pointer; font-size: 14px; font-weight: 500; padding: 12px 24px; width: 100%; transition: background 0.2s; }
+  .btn:hover { background: #378add; }
+  .btn:disabled { background: #1a3a5c; color: #4a7aa0; cursor: not-allowed; }
+  .kpi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px; }
+  .kpi { background: #0d1f3c; border: 1px solid #1e3a6e; border-radius: 8px; padding: 12px; }
+  .kpi-label { font-size: 10px; color: #7eb3d8; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .kpi-val { font-size: 22px; font-weight: 600; }
+  .kpi-val.green { color: #5dcaa5; }
+  .kpi-val.amber { color: #fac775; }
+  .kpi-val.red { color: #f09595; }
+  .kpi-val.blue { color: #85b7eb; }
+  .rec-list { list-style: none; }
+  .rec-item { display: flex; gap: 12px; padding: 14px 0; border-bottom: 1px solid #1e3a6e; }
+  .rec-item:last-child { border-bottom: none; }
+  .rec-icon { font-size: 20px; flex-shrink: 0; margin-top: 2px; }
+  .rec-text { font-size: 14px; line-height: 1.6; color: #c8dff0; }
+  .rec-title { font-weight: 600; color: #e8f4ff; margin-bottom: 4px; font-size: 14px; }
+  .loading { text-align: center; padding: 32px; color: #7eb3d8; }
+  .spinner { display: inline-block; width: 32px; height: 32px; border: 3px solid #1e3a6e; border-top-color: #378add; border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 12px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .error { background: #3a1a1a; border: 1px solid #7a3333; border-radius: 8px; color: #f09595; padding: 12px 16px; font-size: 13px; margin-top: 12px; }
+  .specialist-name { font-size: 20px; font-weight: 600; color: #e8f4ff; margin-bottom: 4px; }
+  .specialist-esp { font-size: 13px; color: #7eb3d8; margin-bottom: 20px; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div style="width:48px;height:48px;background:#1a3a6c;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;">🏥</div>
+  <div class="header-text">
+    <h1>Hospital Regional de Antofagasta · Servicio Dental</h1>
+    <p>Recomendaciones personalizadas por especialista</p>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="card" id="config-card">
+    <h2>Configuración</h2>
+    <div class="api-row form-group">
+      <label>Clave API de Claude (se guarda solo en tu navegador)</label>
+      <input type="password" id="api-key" placeholder="sk-ant-..." />
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label>Nombre del especialista</label>
+        <select id="especialista">
+          <option value="">Seleccionar...</option>
+          <option>Andres Caballero</option>
+          <option>Jimena Carrasco</option>
+          <option>Fernando Duran</option>
+          <option>Jorge Ferrada</option>
+          <option>Gabriela Ovando</option>
+          <option>Nikole Guerrero</option>
+          <option>Cristian Villalobos</option>
+          <option>Roberto Munoz</option>
+          <option>Marcelo Rivera</option>
+          <option>Paulina Gonzalez</option>
+          <option>Juan Bugueno</option>
+          <option>Juan Cortes</option>
+          <option>Manuel Campana</option>
+          <option>Gabriela Farias</option>
+          <option>Giselle Garrido</option>
+          <option>Sebastian Godoy</option>
+          <option>Rodolfo Olivares</option>
+          <option>Paula Besnier</option>
+          <option>Pablo Spencer</option>
+          <option>Irene Gutierrez</option>
+          <option>Carlos Humeres</option>
+          <option>Luis Amengual</option>
+          <option>Yasna Covarrubias</option>
+          <option>Andres Segovia</option>
+          <option>Isabel Torres</option>
+          <option>Tamara Contreras</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Mes a analizar</label>
+        <select id="mes">
+          <option value="">Seleccionar...</option>
+          <option value="01_Enero">Enero</option>
+          <option value="02_Febrero">Febrero</option>
+          <option value="03_Marzo">Marzo</option>
+          <option value="04_Abril">Abril</option>
+          <option value="05_Mayo">Mayo</option>
+          <option value="06_Junio">Junio</option>
+          <option value="07_Julio">Julio</option>
+          <option value="08_Agosto">Agosto</option>
+          <option value="09_Septiembre">Septiembre</option>
+          <option value="10_Octubre">Octubre</option>
+          <option value="11_Noviembre">Noviembre</option>
+          <option value="12_Diciembre">Diciembre</option>
+        </select>
+      </div>
+    </div>
+    <button class="btn" id="btn-analizar" onclick="analizar()">Generar recomendaciones</button>
+    <div id="error-msg" class="error hidden"></div>
+  </div>
+
+  <div class="card hidden" id="resultado-card">
+    <div id="specialist-header"></div>
+    <div class="kpi-grid" id="kpi-grid"></div>
+    <h2>Recomendaciones personalizadas</h2>
+    <div id="loading" class="loading hidden">
+      <div class="spinner"></div>
+      <p>Analizando indicadores con IA...</p>
+    </div>
+    <ul class="rec-list" id="rec-list"></ul>
+  </div>
+
+</div>
+
+<script>
+const SHEET_ID = "1dGOE6rayPk0c5UXzoprP0Bus2aeMFfI5d1vYrRlE6uY";
+const SHEET_NAME = "Datos_Mensuales";
+
+const METAS = {
+  "Andres Caballero":    {altas:236,cne:328,esp:"Endodoncia"},
+  "Jimena Carrasco":     {altas:236,cne:328,esp:"Endodoncia"},
+  "Fernando Duran":      {altas:314,cne:437,esp:"Endodoncia"},
+  "Jorge Ferrada":       {altas:109,cne:132,esp:"Periodoncia"},
+  "Gabriela Ovando":     {altas:109,cne:132,esp:"Periodoncia"},
+  "Nikole Guerrero":     {altas:60, cne:157,esp:"Ortodoncia"},
+  "Cristian Villalobos": {altas:79, cne:182,esp:"Ortodoncia"},
+  "Roberto Munoz":       {altas:60, cne:157,esp:"Ortodoncia"},
+  "Marcelo Rivera":      {altas:60, cne:165,esp:"Ortodoncia"},
+  "Paulina Gonzalez":    {altas:520,cne:870,esp:"Cirugia Maxilofacial"},
+  "Juan Bugueno":        {altas:260,cne:435,esp:"Cirugia Maxilofacial"},
+  "Juan Cortes":         {altas:260,cne:435,esp:"Cirugia Maxilofacial"},
+  "Manuel Campana":      {altas:260,cne:344,esp:"Rehabilitacion Oral"},
+  "Gabriela Farias":     {altas:260,cne:344,esp:"Rehabilitacion Oral"},
+  "Giselle Garrido":     {altas:260,cne:344,esp:"Rehabilitacion Oral"},
+  "Sebastian Godoy":     {altas:260,cne:344,esp:"Rehabilitacion Oral"},
+  "Rodolfo Olivares":    {altas:195,cne:258,esp:"Rehabilitacion Oral"},
+  "Paula Besnier":       {altas:89, cne:109,esp:"Odontopediatria"},
+  "Pablo Spencer":       {altas:89, cne:109,esp:"Odontopediatria"},
+  "Irene Gutierrez":     {altas:89, cne:109,esp:"Odontopediatria"},
+  "Carlos Humeres":      {altas:226,cne:349,esp:"Patologia Oral"},
+  "Luis Amengual":       {altas:133,cne:143,esp:"Implantologia"},
+  "Yasna Covarrubias":   {altas:70, cne:116,esp:"TTM"},
+  "Andres Segovia":      {altas:0,  cne:0,  esp:"Radiologia Dental"},
+  "Isabel Torres":       {altas:0,  cne:0,  esp:"Radiologia Dental"},
+  "Tamara Contreras":    {altas:0,  cne:0,  esp:"Radiologia Dental"},
+};
+
+function showError(msg) {
+  const el = document.getElementById("error-msg");
+  el.textContent = msg;
+  el.classList.remove("hidden");
+}
+
+function hideError() {
+  document.getElementById("error-msg").classList.add("hidden");
+}
+
+async function obtenerDatos(nombre, mes) {
+  const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:json&sheet=${encodeURIComponent(SHEET_NAME)}`;
+  const resp = await fetch(url);
+  const text = await resp.text();
+  const json = JSON.parse(text.match(/google\.visualization\.Query\.setResponse\(([\s\S]*)\)/)[1]);
+  const rows = json.table.rows;
+  const cols = json.table.cols.map(c => c.label);
+
+  const idxMes    = cols.indexOf("MES");
+  const idxNombre = cols.indexOf("NOMBRE");
+  const idxAltas  = cols.indexOf("ALTAS_TRAT");
+  const idxCNE    = cols.indexOf("CNE");
+  const idxCtrl   = cols.indexOf("CONTROL");
+  const idxInasCNE  = cols.indexOf("INASIST_CNE");
+  const idxIasCtrl  = cols.indexOf("INASIST_CONTROL");
+  const idxPPV    = cols.indexOf("PPV_MONTO");
+  const idxMetaA  = cols.indexOf("META_ALTAS");
+  const idxMetaC  = cols.indexOf("META_CNE");
+
+  const datos = [];
+  for (const row of rows) {
+    const c = row.c;
+    const rowNombre = c[idxNombre]?.v || "";
+    const rowMes    = c[idxMes]?.v || "";
+    if (rowNombre.trim() === nombre.trim() && rowMes.trim() === mes.trim()) {
+      datos.push({
+        mes: rowMes,
+        altas:    Number(c[idxAltas]?.v  || 0),
+        cne:      Number(c[idxCNE]?.v    || 0),
+        control:  Number(c[idxCtrl]?.v   || 0),
+        inasCNE:  Number(c[idxInasCNE]?.v|| 0),
+        iasCtrl:  Number(c[idxIasCtrl]?.v|| 0),
+        ppv:      Number(c[idxPPV]?.v    || 0),
+        metaAltas:Number(c[idxMetaA]?.v  || 0),
+        metaCNE:  Number(c[idxMetaC]?.v  || 0),
+      });
+    }
+  }
+  return datos;
+}
+
+async function analizar() {
+  hideError();
+  const apiKey      = document.getElementById("api-key").value.trim();
+  const especialista= document.getElementById("especialista").value;
+  const mes         = document.getElementById("mes").value;
+
+  if (!apiKey)       return showError("Ingresa tu clave API de Claude.");
+  if (!especialista) return showError("Selecciona un especialista.");
+  if (!mes)          return showError("Selecciona un mes.");
+
+  const btn = document.getElementById("btn-analizar");
+  btn.disabled = true;
+  btn.textContent = "Cargando datos...";
+
+  try {
+    const datos = await obtenerDatos(especialista, mes);
+    if (!datos.length) {
+      showError(`No se encontraron datos para ${especialista} en ${mes}.`);
+      btn.disabled = false;
+      btn.textContent = "Generar recomendaciones";
+      return;
+    }
+
+    const d = datos[0];
+    const meta = METAS[especialista] || {altas:0,cne:0,esp:"Desconocida"};
+    const pctAltas = d.metaAltas > 0 ? Math.round(d.altas / d.metaAltas * 100) : 0;
+    const pctCNE   = d.metaCNE   > 0 ? Math.round(d.cne   / d.metaCNE   * 100) : 0;
+    const pctInasCNE  = (d.cne + d.inasCNE)  > 0 ? Math.round(d.inasCNE  / (d.cne  + d.inasCNE)  * 100) : 0;
+    const pctIasCtrl  = (d.control + d.iasCtrl) > 0 ? Math.round(d.iasCtrl / (d.control + d.iasCtrl) * 100) : 0;
+
+    document.getElementById("resultado-card").classList.remove("hidden");
+    document.getElementById("specialist-header").innerHTML = `
+      <div class="specialist-name">${especialista}</div>
+      <div class="specialist-esp">${meta.esp} — ${mes.split("_")[1]}</div>
+    `;
+
+    document.getElementById("kpi-grid").innerHTML = `
+      <div class="kpi"><div class="kpi-label">Altas de tratamiento</div><div class="kpi-val ${d.altas>=d.metaAltas?'green':'amber'}">${d.altas}</div></div>
+      <div class="kpi"><div class="kpi-label">% Cumpl. Altas</div><div class="kpi-val ${pctAltas>=100?'green':pctAltas>=70?'amber':'red'}">${pctAltas}%</div></div>
+      <div class="kpi"><div class="kpi-label">Consultas nuevas</div><div class="kpi-val blue">${d.cne}</div></div>
+      <div class="kpi"><div class="kpi-label">% Cumpl. CNE</div><div class="kpi-val ${pctCNE>=100?'green':pctCNE>=70?'amber':'red'}">${pctCNE}%</div></div>
+      <div class="kpi"><div class="kpi-label">% Inas. CNE</div><div class="kpi-val ${pctInasCNE>20?'red':'green'}">${pctInasCNE}%</div></div>
+      <div class="kpi"><div class="kpi-label">% Inas. Control</div><div class="kpi-val ${pctIasCtrl>20?'red':'green'}">${pctIasCtrl}%</div></div>
+    `;
+
+    const loading = document.getElementById("loading");
+    const recList = document.getElementById("rec-list");
+    loading.classList.remove("hidden");
+    recList.innerHTML = "";
+    btn.textContent = "Generando recomendaciones...";
+
+    const prompt = `Eres un asesor clínico experto en gestión de servicios odontológicos hospitalarios en Chile. 
+Analiza los siguientes indicadores del especialista y genera exactamente 4 recomendaciones prácticas, concretas y personalizadas.
+
+Especialista: ${especialista}
+Especialidad: ${meta.esp}
+Mes: ${mes.split("_")[1]}
+
+Indicadores del mes:
+- Altas de tratamiento: ${d.altas} (meta mensual: ${d.metaAltas})
+- % Cumplimiento altas: ${pctAltas}%
+- Consultas nuevas (CNE): ${d.cne} (meta mensual: ${d.metaCNE})
+- % Cumplimiento CNE: ${pctCNE}%
+- Inasistencias CNE: ${d.inasCNE} (${pctInasCNE}%)
+- Inasistencias Control: ${d.iasCtrl} (${pctIasCtrl}%)
+- Recaudación PPV: $${d.ppv.toLocaleString("es-CL")}
+
+Responde SOLO con un JSON válido con este formato exacto, sin texto adicional:
+{
+  "recomendaciones": [
+    {"icono": "emoji", "titulo": "título corto", "texto": "recomendación detallada y práctica de 2-3 oraciones"},
+    {"icono": "emoji", "titulo": "título corto", "texto": "recomendación detallada y práctica de 2-3 oraciones"},
+    {"icono": "emoji", "titulo": "título corto", "texto": "recomendación detallada y práctica de 2-3 oraciones"},
+    {"icono": "emoji", "titulo": "título corto", "texto": "recomendación detallada y práctica de 2-3 oraciones"}
+  ]
+}`;
+
+    const response = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-api-key": apiKey,
+        "anthropic-version": "2023-06-01",
+        "anthropic-dangerous-direct-browser-access": "true"
+      },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-20250514",
+        max_tokens: 1000,
+        messages: [{ role: "user", content: prompt }]
+      })
+    });
+
+    const data = await response.json();
+    loading.classList.add("hidden");
+
+    if (!response.ok) {
+      showError(`Error API: ${data.error?.message || "Error desconocido"}`);
+      btn.disabled = false;
+      btn.textContent = "Generar recomendaciones";
+      return;
+    }
+
+    const text = data.content[0].text;
+    const clean = text.replace(/```json|```/g, "").trim();
+    const parsed = JSON.parse(clean);
+
+    recList.innerHTML = parsed.recomendaciones.map(r => `
+      <li class="rec-item">
+        <span class="rec-icon">${r.icono}</span>
+        <div>
+          <div class="rec-title">${r.titulo}</div>
+          <div class="rec-text">${r.texto}</div>
+        </div>
+      </li>
+    `).join("");
+
+    localStorage.setItem("dental_api_key", apiKey);
+
+  } catch(e) {
+    showError(`Error: ${e.message}`);
+  }
+
+  btn.disabled = false;
+  btn.textContent = "Generar recomendaciones";
+}
+
+window.onload = () => {
+  const saved = localStorage.getItem("dental_api_key");
+  if (saved) document.getElementById("api-key").value = saved;
+};
+</script>
+</body>
+</html>
