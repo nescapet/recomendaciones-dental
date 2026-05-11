@@ -1,0 +1,2599 @@
+{
+  "actualizado": "10/05/2026 20:23",
+  "meses": [
+    "01_Enero",
+    "02_Febrero",
+    "03_Marzo",
+    "04_Abril"
+  ],
+  "especialistas": {
+    "Andres Caballero": {
+      "especialidad": "Endodoncia",
+      "color": "#1A7AAF",
+      "meta_altas": 236,
+      "meta_cne": 328,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 56,
+          "control": 37,
+          "ingresos": 12,
+          "altas": 12,
+          "inasist_cne": 19,
+          "inasist_ctrl": 26,
+          "ppv": 1719630,
+          "ppv_detalle": "2505641x11",
+          "indicadores": "Unirradicular:5 | Birradicular:3 | Multirradicular:2 | Retratamiento:1",
+          "meta_altas_mes": 1970,
+          "meta_cne_mes": 2730
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 19,
+          "control": 37,
+          "ingresos": 20,
+          "altas": 20,
+          "inasist_cne": 17,
+          "inasist_ctrl": 7,
+          "ppv": 3126600,
+          "ppv_detalle": "2505641x20",
+          "indicadores": "Unirradicular:8 | Birradicular:7 | Multirradicular:5 | Retratamiento:0",
+          "meta_altas_mes": 1970,
+          "meta_cne_mes": 2730
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 19,
+          "control": 40,
+          "ingresos": 11,
+          "altas": 11,
+          "inasist_cne": 22,
+          "inasist_ctrl": 18,
+          "ppv": 1406970,
+          "ppv_detalle": "2505641x9",
+          "indicadores": "Unirradicular:4 | Birradicular:4 | Multirradicular:2 | Retratamiento:1",
+          "meta_altas_mes": 1970,
+          "meta_cne_mes": 2730
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 1970,
+          "meta_cne_mes": 2730
+        }
+      }
+    },
+    "Andres Segovia": {
+      "especialidad": "Radiologia Dental",
+      "color": "#9B9B9B",
+      "meta_altas": 0,
+      "meta_cne": 0,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:129 | Bite Wing:84 | CBCT Craneofacial:2 | CBCT Unimaxilar:13 | CBCT Zona Dentaria:3 | Extraoral:198",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:187 | Bite Wing:84 | CBCT Craneofacial:1 | CBCT Unimaxilar:9 | CBCT Zona Dentaria:2 | Extraoral:170",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:120 | Bite Wing:98 | CBCT Craneofacial:3 | CBCT Unimaxilar:11 | CBCT Zona Dentaria:5 | Extraoral:138",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        }
+      }
+    },
+    "Carlos Humeres": {
+      "especialidad": "Patologia Oral",
+      "color": "#7B6FA0",
+      "meta_altas": 226,
+      "meta_cne": 349,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 12,
+          "control": 58,
+          "ingresos": 32,
+          "altas": 32,
+          "inasist_cne": 3,
+          "inasist_ctrl": 8,
+          "ppv": 1838760,
+          "ppv_detalle": "2505980x12",
+          "indicadores": "Estudio Histopatologico:4",
+          "meta_altas_mes": 1880,
+          "meta_cne_mes": 2910
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 23,
+          "control": 27,
+          "ingresos": 17,
+          "altas": 17,
+          "inasist_cne": 2,
+          "inasist_ctrl": 3,
+          "ppv": 1532300,
+          "ppv_detalle": "2505980x10",
+          "indicadores": "Estudio Histopatologico:3",
+          "meta_altas_mes": 1880,
+          "meta_cne_mes": 2910
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 1880,
+          "meta_cne_mes": 2910
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 1880,
+          "meta_cne_mes": 2910
+        }
+      }
+    },
+    "Cristian Villalobos": {
+      "especialidad": "Ortodoncia",
+      "color": "#0F8B8D",
+      "meta_altas": 79,
+      "meta_cne": 182,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 25,
+          "control": 172,
+          "ingresos": 1,
+          "altas": 1,
+          "inasist_cne": 1,
+          "inasist_ctrl": 49,
+          "ppv": 5699050,
+          "ppv_detalle": "2505638x13 | 2505639x1",
+          "indicadores": "Aparatologia Fija:13 | Instalacion Contencion:1 | Retiros:1",
+          "meta_altas_mes": 660,
+          "meta_cne_mes": 1520
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 660,
+          "meta_cne_mes": 1520
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 660,
+          "meta_cne_mes": 1520
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 660,
+          "meta_cne_mes": 1520
+        }
+      }
+    },
+    "Fernando Duran": {
+      "especialidad": "Endodoncia",
+      "color": "#1A7AAF",
+      "meta_altas": 314,
+      "meta_cne": 437,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 43,
+          "control": 67,
+          "ingresos": 22,
+          "altas": 22,
+          "inasist_cne": 23,
+          "inasist_ctrl": 26,
+          "ppv": 3126600,
+          "ppv_detalle": "2505641x20",
+          "indicadores": "Unirradicular:7 | Birradicular:4 | Multirradicular:11 | Retratamiento:0",
+          "meta_altas_mes": 2620,
+          "meta_cne_mes": 3640
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 8,
+          "control": 16,
+          "ingresos": 9,
+          "altas": 9,
+          "inasist_cne": 8,
+          "inasist_ctrl": 0,
+          "ppv": 1250640,
+          "ppv_detalle": "2505641x8",
+          "indicadores": "Unirradicular:4 | Birradicular:2 | Multirradicular:3 | Retratamiento:1",
+          "meta_altas_mes": 2620,
+          "meta_cne_mes": 3640
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 41,
+          "control": 56,
+          "ingresos": 21,
+          "altas": 21,
+          "inasist_cne": 24,
+          "inasist_ctrl": 22,
+          "ppv": 2970270,
+          "ppv_detalle": "2505641x19",
+          "indicadores": "Unirradicular:9 | Birradicular:9 | Multirradicular:3 | Retratamiento:1",
+          "meta_altas_mes": 2620,
+          "meta_cne_mes": 3640
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2620,
+          "meta_cne_mes": 3640
+        }
+      }
+    },
+    "Gabriela Farias": {
+      "especialidad": "Rehabilitacion Oral",
+      "color": "#2E86AB",
+      "meta_altas": 260,
+      "meta_cne": 344,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 24,
+          "control": 163,
+          "ingresos": 19,
+          "altas": 19,
+          "inasist_cne": 2,
+          "inasist_ctrl": 27,
+          "ppv": 4567390,
+          "ppv_detalle": "2505642x11 | 2505643x2",
+          "indicadores": "Prot Remov Acrilica:23 | Prot Remov Metalica:0 | Prot Fija Unitaria:1 | Prot Fija InlayOnlay:0",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 19,
+          "control": 134,
+          "ingresos": 22,
+          "altas": 22,
+          "inasist_cne": 7,
+          "inasist_ctrl": 15,
+          "ppv": 4470100,
+          "ppv_detalle": "2505642x12 | 2505643x1",
+          "indicadores": "Prot Remov Acrilica:20 | Prot Remov Metalica:2 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:1",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 34,
+          "control": 154,
+          "ingresos": 21,
+          "altas": 21,
+          "inasist_cne": 7,
+          "inasist_ctrl": 19,
+          "ppv": 8656620,
+          "ppv_detalle": "2505642x18 | 2505643x6",
+          "indicadores": "Prot Remov Acrilica:35 | Prot Remov Metalica:0 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:6",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        }
+      }
+    },
+    "Giselle Garrido": {
+      "especialidad": "Rehabilitacion Oral",
+      "color": "#2E86AB",
+      "meta_altas": 260,
+      "meta_cne": 344,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 17,
+          "control": 89,
+          "ingresos": 5,
+          "altas": 5,
+          "inasist_cne": 3,
+          "inasist_ctrl": 23,
+          "ppv": 2007350,
+          "ppv_detalle": "2505642x4 | 2505636x1 | 2505643x1",
+          "indicadores": "Prot Remov Acrilica:8 | Prot Remov Metalica:0 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:1",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 51,
+          "control": 241,
+          "ingresos": 36,
+          "altas": 36,
+          "inasist_cne": 24,
+          "inasist_ctrl": 44,
+          "ppv": 11859370,
+          "ppv_detalle": "2505642x32 | 2505636x1 | 2505643x2",
+          "indicadores": "Prot Remov Acrilica:62 | Prot Remov Metalica:0 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:3",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 46,
+          "control": 177,
+          "ingresos": 25,
+          "altas": 25,
+          "inasist_cne": 24,
+          "inasist_ctrl": 27,
+          "ppv": 8409250,
+          "ppv_detalle": "2505642x25",
+          "indicadores": "Prot Remov Acrilica:40 | Prot Remov Metalica:4 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:0",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        }
+      }
+    },
+    "Irene Gutierrez": {
+      "especialidad": "Odontopediatria",
+      "color": "#0E7A5A",
+      "meta_altas": 89,
+      "meta_cne": 109,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 23,
+          "control": 133,
+          "ingresos": 1,
+          "altas": 1,
+          "inasist_cne": 6,
+          "inasist_ctrl": 19,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Proc Restaurador:50 | Proc Pulpar:3",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 8,
+          "control": 84,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 7,
+          "inasist_ctrl": 17,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Proc Restaurador:20 | Proc Pulpar:2",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 16,
+          "control": 180,
+          "ingresos": 2,
+          "altas": 2,
+          "inasist_cne": 7,
+          "inasist_ctrl": 22,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Proc Restaurador:36 | Proc Pulpar:7",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        }
+      }
+    },
+    "Isabel Torres": {
+      "especialidad": "Radiologia Dental",
+      "color": "#9B9B9B",
+      "meta_altas": 0,
+      "meta_cne": 0,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:137 | Bite Wing:52 | CBCT Craneofacial:1 | CBCT Unimaxilar:4 | CBCT Zona Dentaria:2 | Extraoral:140",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:139 | Bite Wing:79 | CBCT Craneofacial:0 | CBCT Unimaxilar:15 | CBCT Zona Dentaria:2 | Extraoral:119",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:167 | Bite Wing:104 | CBCT Craneofacial:2 | CBCT Unimaxilar:9 | CBCT Zona Dentaria:5 | Extraoral:177",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        }
+      }
+    },
+    "Jimena Carrasco": {
+      "especialidad": "Endodoncia",
+      "color": "#1A7AAF",
+      "meta_altas": 236,
+      "meta_cne": 328,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 50,
+          "control": 50,
+          "ingresos": 24,
+          "altas": 24,
+          "inasist_cne": 26,
+          "inasist_ctrl": 46,
+          "ppv": 3776620,
+          "ppv_detalle": "2505641x23 | 2702002x1",
+          "indicadores": "Unirradicular:8 | Birradicular:11 | Multirradicular:4 | Retratamiento:0",
+          "meta_altas_mes": 1970,
+          "meta_cne_mes": 2730
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 50,
+          "control": 69,
+          "ingresos": 31,
+          "altas": 31,
+          "inasist_cne": 30,
+          "inasist_ctrl": 41,
+          "ppv": 4582970,
+          "ppv_detalle": "2702003x1 | 2505641x27 | 2702002x1",
+          "indicadores": "Unirradicular:11 | Birradicular:7 | Multirradicular:13 | Retratamiento:2",
+          "meta_altas_mes": 1970,
+          "meta_cne_mes": 2730
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 56,
+          "control": 76,
+          "ingresos": 30,
+          "altas": 30,
+          "inasist_cne": 25,
+          "inasist_ctrl": 28,
+          "ppv": 4533570,
+          "ppv_detalle": "2505641x29",
+          "indicadores": "Unirradicular:17 | Birradicular:8 | Multirradicular:5 | Retratamiento:0",
+          "meta_altas_mes": 1970,
+          "meta_cne_mes": 2730
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 1970,
+          "meta_cne_mes": 2730
+        }
+      }
+    },
+    "Jorge Ferrada": {
+      "especialidad": "Periodoncia",
+      "color": "#5B8DB8",
+      "meta_altas": 109,
+      "meta_cne": 132,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 15,
+          "control": 62,
+          "ingresos": 8,
+          "altas": 8,
+          "inasist_cne": 3,
+          "inasist_ctrl": 25,
+          "ppv": 2501190,
+          "ppv_detalle": "2505978x7 | 2701003x1",
+          "indicadores": "Destartraje Subgingival:26 | Destartraje Supragingival:172",
+          "meta_altas_mes": 910,
+          "meta_cne_mes": 1100
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 2,
+          "control": 15,
+          "ingresos": 5,
+          "altas": 5,
+          "inasist_cne": 3,
+          "inasist_ctrl": 8,
+          "ppv": 1411400,
+          "ppv_detalle": "2505978x5",
+          "indicadores": "Destartraje Subgingival:6 | Destartraje Supragingival:46",
+          "meta_altas_mes": 910,
+          "meta_cne_mes": 1100
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 910,
+          "meta_cne_mes": 1100
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 910,
+          "meta_cne_mes": 1100
+        }
+      }
+    },
+    "Juan Bugueno": {
+      "especialidad": "Cirugia Maxilofacial",
+      "color": "#0B4F72",
+      "meta_altas": 260,
+      "meta_cne": 435,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 145,
+          "control": 74,
+          "ingresos": 86,
+          "altas": 86,
+          "inasist_cne": 92,
+          "inasist_ctrl": 10,
+          "ppv": 9008450,
+          "ppv_detalle": "2505976x13 | 2505977x16",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 3620
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 3620
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 3620
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 3620
+        }
+      }
+    },
+    "Juan Cortes": {
+      "especialidad": "Cirugia Maxilofacial",
+      "color": "#0B4F72",
+      "meta_altas": 260,
+      "meta_cne": 435,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 4,
+          "control": 16,
+          "ingresos": 8,
+          "altas": 8,
+          "inasist_cne": 8,
+          "inasist_ctrl": 4,
+          "ppv": 974550,
+          "ppv_detalle": "2505977x2 | 2505976x1",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 3620
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 38,
+          "control": 99,
+          "ingresos": 55,
+          "altas": 55,
+          "inasist_cne": 34,
+          "inasist_ctrl": 29,
+          "ppv": 7733180,
+          "ppv_detalle": "2505976x8 | 2505977x14 | 2505637x1 | 2505645x1",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 3620
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 4,
+          "control": 16,
+          "ingresos": 8,
+          "altas": 8,
+          "inasist_cne": 8,
+          "inasist_ctrl": 4,
+          "ppv": 974550,
+          "ppv_detalle": "2505977x2 | 2505976x1",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 3620
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 3620
+        }
+      }
+    },
+    "Luis Amengual": {
+      "especialidad": "Implantologia",
+      "color": "#C0842D",
+      "meta_altas": 133,
+      "meta_cne": 143,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 2531400,
+          "ppv_detalle": "2505644x4",
+          "indicadores": "Etapa Protesica:0",
+          "meta_altas_mes": 1110,
+          "meta_cne_mes": 1190
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 21,
+          "control": 146,
+          "ingresos": 3,
+          "altas": 3,
+          "inasist_cne": 3,
+          "inasist_ctrl": 16,
+          "ppv": 8227050,
+          "ppv_detalle": "2505644x13",
+          "indicadores": "Etapa Protesica:3",
+          "meta_altas_mes": 1110,
+          "meta_cne_mes": 1190
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 1110,
+          "meta_cne_mes": 1190
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 1110,
+          "meta_cne_mes": 1190
+        }
+      }
+    },
+    "Marcelo Rivera": {
+      "especialidad": "Ortodoncia",
+      "color": "#0F8B8D",
+      "meta_altas": 60,
+      "meta_cne": 165,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 11,
+          "control": 142,
+          "ingresos": 7,
+          "altas": 7,
+          "inasist_cne": 1,
+          "inasist_ctrl": 37,
+          "ppv": 4056970,
+          "ppv_detalle": "2505638x9 | 2505639x1",
+          "indicadores": "Aparatologia Fija:15 | Instalacion Contencion:0 | Retiros:2",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1380
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1380
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1380
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1380
+        }
+      }
+    },
+    "Nikole Guerrero": {
+      "especialidad": "Ortodoncia",
+      "color": "#0F8B8D",
+      "meta_altas": 60,
+      "meta_cne": 157,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 6,
+          "control": 49,
+          "ingresos": 1,
+          "altas": 1,
+          "inasist_cne": 0,
+          "inasist_ctrl": 10,
+          "ppv": 2825410,
+          "ppv_detalle": "2505638x6 | 2505639x1",
+          "indicadores": "Aparatologia Fija:8 | Instalacion Contencion:2 | Retiros:2",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1310
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 10,
+          "control": 179,
+          "ingresos": 5,
+          "altas": 5,
+          "inasist_cne": 2,
+          "inasist_ctrl": 29,
+          "ppv": 5143840,
+          "ppv_detalle": "2505638x9 | 2505639x4",
+          "indicadores": "Aparatologia Fija:9 | Instalacion Contencion:10 | Retiros:10",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1310
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 13,
+          "control": 235,
+          "ingresos": 9,
+          "altas": 9,
+          "inasist_cne": 0,
+          "inasist_ctrl": 33,
+          "ppv": 5240300,
+          "ppv_detalle": "2505638x11 | 2505639x2",
+          "indicadores": "Aparatologia Fija:19 | Instalacion Contencion:8 | Retiros:14",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1310
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1310
+        }
+      }
+    },
+    "Pablo Spencer": {
+      "especialidad": "Odontopediatria",
+      "color": "#0E7A5A",
+      "meta_altas": 89,
+      "meta_cne": 109,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 29,
+          "control": 53,
+          "ingresos": 18,
+          "altas": 18,
+          "inasist_cne": 6,
+          "inasist_ctrl": 19,
+          "ppv": 1730210,
+          "ppv_detalle": "2505635x10 | 2505997x3",
+          "indicadores": "Proc Restaurador:0 | Proc Pulpar:0",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 19,
+          "control": 44,
+          "ingresos": 13,
+          "altas": 13,
+          "inasist_cne": 2,
+          "inasist_ctrl": 8,
+          "ppv": 3318980,
+          "ppv_detalle": "2505997x14",
+          "indicadores": "Proc Restaurador:0 | Proc Pulpar:1",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 22,
+          "control": 74,
+          "ingresos": 20,
+          "altas": 20,
+          "inasist_cne": 7,
+          "inasist_ctrl": 29,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Proc Restaurador:0 | Proc Pulpar:2",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        }
+      }
+    },
+    "Paula Besnier": {
+      "especialidad": "Odontopediatria",
+      "color": "#0E7A5A",
+      "meta_altas": 89,
+      "meta_cne": 109,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 31,
+          "control": 56,
+          "ingresos": 15,
+          "altas": 15,
+          "inasist_cne": 8,
+          "inasist_ctrl": 10,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Proc Restaurador:22 | Proc Pulpar:4",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 18,
+          "control": 31,
+          "ingresos": 7,
+          "altas": 7,
+          "inasist_cne": 2,
+          "inasist_ctrl": 9,
+          "ppv": 2040510,
+          "ppv_detalle": "2505635x4 | 2505997x4 | 2505636x3",
+          "indicadores": "Proc Restaurador:7 | Proc Pulpar:5",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 30,
+          "control": 45,
+          "ingresos": 13,
+          "altas": 13,
+          "inasist_cne": 2,
+          "inasist_ctrl": 22,
+          "ppv": 2643050,
+          "ppv_detalle": "2505635x10 | 2505636x4 | 2505997x3",
+          "indicadores": "Proc Restaurador:8 | Proc Pulpar:4",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 740,
+          "meta_cne_mes": 910
+        }
+      }
+    },
+    "Paulina Gonzalez": {
+      "especialidad": "Cirugia Maxilofacial",
+      "color": "#0B4F72",
+      "meta_altas": 520,
+      "meta_cne": 870,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 122,
+          "control": 79,
+          "ingresos": 104,
+          "altas": 104,
+          "inasist_cne": 38,
+          "inasist_ctrl": 18,
+          "ppv": 8276310,
+          "ppv_detalle": "2505977x14 | 2505976x13",
+          "indicadores": "",
+          "meta_altas_mes": 4330,
+          "meta_cne_mes": 7250
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 113,
+          "control": 146,
+          "ingresos": 128,
+          "altas": 128,
+          "inasist_cne": 56,
+          "inasist_ctrl": 8,
+          "ppv": 9859340,
+          "ppv_detalle": "2505976x15 | 2505977x17",
+          "indicadores": "",
+          "meta_altas_mes": 4330,
+          "meta_cne_mes": 7250
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 4330,
+          "meta_cne_mes": 7250
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 4330,
+          "meta_cne_mes": 7250
+        }
+      }
+    },
+    "Roberto Munoz": {
+      "especialidad": "Ortodoncia",
+      "color": "#0F8B8D",
+      "meta_altas": 60,
+      "meta_cne": 157,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 10,
+          "control": 98,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 25,
+          "ppv": 3284160,
+          "ppv_detalle": "2505638x8",
+          "indicadores": "Aparatologia Fija:8 | Instalacion Contencion:0 | Retiros:0",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1310
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 15,
+          "control": 146,
+          "ingresos": 3,
+          "altas": 3,
+          "inasist_cne": 0,
+          "inasist_ctrl": 20,
+          "ppv": 5602590,
+          "ppv_detalle": "2505638x11 | 2505639x3",
+          "indicadores": "Aparatologia Fija:11 | Instalacion Contencion:0 | Retiros:3",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1310
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1310
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1310
+        }
+      }
+    },
+    "Rodolfo Olivares": {
+      "especialidad": "Rehabilitacion Oral",
+      "color": "#2E86AB",
+      "meta_altas": 195,
+      "meta_cne": 258,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 31,
+          "control": 169,
+          "ingresos": 30,
+          "altas": 30,
+          "inasist_cne": 0,
+          "inasist_ctrl": 19,
+          "ppv": 9625080,
+          "ppv_detalle": "2505642x27 | 2702007x3",
+          "indicadores": "Prot Remov Acrilica:51 | Prot Remov Metalica:0 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:0",
+          "meta_altas_mes": 1620,
+          "meta_cne_mes": 2150
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 10,
+          "control": 79,
+          "ingresos": 19,
+          "altas": 19,
+          "inasist_cne": 0,
+          "inasist_ctrl": 18,
+          "ppv": 6692110,
+          "ppv_detalle": "2505642x18 | 2505636x2 | 2702007x1",
+          "indicadores": "Prot Remov Acrilica:36 | Prot Remov Metalica:0 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:0",
+          "meta_altas_mes": 1620,
+          "meta_cne_mes": 2150
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 1620,
+          "meta_cne_mes": 2150
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 1620,
+          "meta_cne_mes": 2150
+        }
+      }
+    },
+    "Sebastian Godoy": {
+      "especialidad": "Rehabilitacion Oral",
+      "color": "#2E86AB",
+      "meta_altas": 260,
+      "meta_cne": 344,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 50,
+          "control": 198,
+          "ingresos": 26,
+          "altas": 26,
+          "inasist_cne": 13,
+          "inasist_ctrl": 36,
+          "ppv": 5177490,
+          "ppv_detalle": "2505642x12 | 2505636x5",
+          "indicadores": "Prot Remov Acrilica:22 | Prot Remov Metalica:1 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:0",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 4,
+          "control": 40,
+          "ingresos": 10,
+          "altas": 10,
+          "inasist_cne": 7,
+          "inasist_ctrl": 12,
+          "ppv": 3711960,
+          "ppv_detalle": "2505642x9 | 2505636x3",
+          "indicadores": "Prot Remov Acrilica:13 | Prot Remov Metalica:1 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:0",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        }
+      }
+    },
+    "Tamara Contreras": {
+      "especialidad": "Radiologia Dental",
+      "color": "#9B9B9B",
+      "meta_altas": 0,
+      "meta_cne": 0,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:157 | Bite Wing:96 | CBCT Craneofacial:0 | CBCT Unimaxilar:8 | CBCT Zona Dentaria:1 | Extraoral:180",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:133 | Bite Wing:108 | CBCT Craneofacial:1 | CBCT Unimaxilar:19 | CBCT Zona Dentaria:4 | Extraoral:117",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        }
+      }
+    },
+    "Yasna Covarrubias": {
+      "especialidad": "TTM",
+      "color": "#2DA8A8",
+      "meta_altas": 70,
+      "meta_cne": 116,
+      "meses": {
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 41,
+          "control": 149,
+          "ingresos": 7,
+          "altas": 7,
+          "inasist_cne": 22,
+          "inasist_ctrl": 47,
+          "ppv": 847640,
+          "ppv_detalle": "2505979x4",
+          "indicadores": "Terapia Fisica TTM:0 | Instalacion Dispositivo:20",
+          "meta_altas_mes": 580,
+          "meta_cne_mes": 970
+        },
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 9,
+          "control": 46,
+          "ingresos": 9,
+          "altas": 9,
+          "inasist_cne": 5,
+          "inasist_ctrl": 18,
+          "ppv": 1271460,
+          "ppv_detalle": "2505979x6",
+          "indicadores": "Terapia Fisica TTM:0 | Instalacion Dispositivo:3",
+          "meta_altas_mes": 580,
+          "meta_cne_mes": 970
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 580,
+          "meta_cne_mes": 970
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 580,
+          "meta_cne_mes": 970
+        }
+      }
+    },
+    "Gabriela Ovando": {
+      "especialidad": "Periodoncia",
+      "color": "#5B8DB8",
+      "meta_altas": 109,
+      "meta_cne": 132,
+      "meses": {
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 21,
+          "control": 61,
+          "ingresos": 15,
+          "altas": 15,
+          "inasist_cne": 17,
+          "inasist_ctrl": 13,
+          "ppv": 4234200,
+          "ppv_detalle": "2505978x15",
+          "indicadores": "Destartraje Subgingival:59 | Destartraje Supragingival:50",
+          "meta_altas_mes": 910,
+          "meta_cne_mes": 1100
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 26,
+          "control": 59,
+          "ingresos": 12,
+          "altas": 12,
+          "inasist_cne": 16,
+          "inasist_ctrl": 18,
+          "ppv": 3387360,
+          "ppv_detalle": "2505978x12",
+          "indicadores": "Destartraje Subgingival:42 | Destartraje Supragingival:68",
+          "meta_altas_mes": 910,
+          "meta_cne_mes": 1100
+        },
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 910,
+          "meta_cne_mes": 1100
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 910,
+          "meta_cne_mes": 1100
+        }
+      }
+    },
+    "Manuel Campana": {
+      "especialidad": "Rehabilitacion Oral",
+      "color": "#2E86AB",
+      "meta_altas": 260,
+      "meta_cne": 344,
+      "meses": {
+        "02_Febrero": {
+          "mes_num": 2,
+          "cne": 25,
+          "control": 178,
+          "ingresos": 20,
+          "altas": 20,
+          "inasist_cne": 6,
+          "inasist_ctrl": 28,
+          "ppv": 6921980,
+          "ppv_detalle": "2505642x18 | 2505643x2",
+          "indicadores": "Prot Remov Acrilica:36 | Prot Remov Metalica:0 | Prot Fija Unitaria:1 | Prot Fija InlayOnlay:6",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "03_Marzo": {
+          "mes_num": 3,
+          "cne": 37,
+          "control": 124,
+          "ingresos": 14,
+          "altas": 14,
+          "inasist_cne": 11,
+          "inasist_ctrl": 42,
+          "ppv": 5323870,
+          "ppv_detalle": "2505642x14 | 2505643x1 | 2702007x1",
+          "indicadores": "Prot Remov Acrilica:28 | Prot Remov Metalica:0 | Prot Fija Unitaria:1 | Prot Fija InlayOnlay:4",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "01_Enero": {
+          "mes_num": 1,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2170,
+          "meta_cne_mes": 2870
+        }
+      }
+    }
+  },
+  "inasistencias_detalle": {
+    "Nikole Guerrero|Marzo": {
+      "total": 264,
+      "cne": 0,
+      "ctrl": 264,
+      "dias": {
+        "Viernes": 64,
+        "Lunes": 72,
+        "Miercoles": 48,
+        "Jueves": 48,
+        "Martes": 32
+      }
+    },
+    "Cristian Villalobos|Enero": {
+      "total": 408,
+      "cne": 8,
+      "ctrl": 400,
+      "dias": {
+        "Viernes": 72,
+        "Martes": 80,
+        "Miercoles": 80,
+        "Jueves": 56,
+        "Lunes": 120
+      }
+    },
+    "Gabriela Farías|Enero": {
+      "total": 87,
+      "cne": 6,
+      "ctrl": 81,
+      "dias": {
+        "Lunes": 15,
+        "Martes": 15,
+        "Miercoles": 21,
+        "Jueves": 24,
+        "Viernes": 12
+      }
+    },
+    "Giselle Garrido|Enero": {
+      "total": 208,
+      "cne": 24,
+      "ctrl": 184,
+      "dias": {
+        "Jueves": 48,
+        "Viernes": 48,
+        "Lunes": 24,
+        "Martes": 56,
+        "Miercoles": 32
+      }
+    },
+    "Juan Bugueño|Enero": {
+      "total": 18,
+      "cne": 18,
+      "ctrl": 0,
+      "dias": {
+        "Miercoles": 3,
+        "Martes": 3
+      }
+    },
+    "Juan Jose|Enero": {
+      "total": 36,
+      "cne": 24,
+      "ctrl": 12,
+      "dias": {}
+    },
+    "Marcelo  Rivera|Enero": {
+      "total": 6,
+      "cne": 0,
+      "ctrl": 6,
+      "dias": {
+        "Jueves": 2,
+        "Miercoles": 2,
+        "Lunes": 2
+      }
+    },
+    "Nikole Guerrero|Enero": {
+      "total": 80,
+      "cne": 0,
+      "ctrl": 80,
+      "dias": {
+        "Viernes": 40,
+        "Lunes": 16,
+        "Martes": 24
+      }
+    },
+    "Pablo Spencer|Enero": {
+      "total": 200,
+      "cne": 48,
+      "ctrl": 152,
+      "dias": {
+        "Martes": 56,
+        "Jueves": 104,
+        "Viernes": 40
+      }
+    },
+    "Roberto muñoz Ortodoncia|Enero": {
+      "total": 52,
+      "cne": 0,
+      "ctrl": 52,
+      "dias": {
+        "Lunes": 12,
+        "Miercoles": 18,
+        "Jueves": 6,
+        "Viernes": 16
+      }
+    },
+    "Rodolfo Olivares|Enero": {
+      "total": 152,
+      "cne": 0,
+      "ctrl": 152,
+      "dias": {
+        "Miercoles": 96,
+        "Jueves": 40,
+        "Martes": 16
+      }
+    },
+    "Sebastián Godoy|Enero": {
+      "total": 147,
+      "cne": 39,
+      "ctrl": 108,
+      "dias": {
+        "Lunes": 27,
+        "Martes": 39,
+        "Miercoles": 36,
+        "Jueves": 21,
+        "Viernes": 24
+      }
+    },
+    "Gabriela Farias|Marzo": {
+      "total": 182,
+      "cne": 49,
+      "ctrl": 133,
+      "dias": {
+        "Lunes": 63,
+        "Miercoles": 21,
+        "Jueves": 35,
+        "Martes": 63
+      }
+    },
+    "Giselle Garrido|Marzo": {
+      "total": 357,
+      "cne": 168,
+      "ctrl": 189,
+      "dias": {
+        "Lunes": 70,
+        "Martes": 126,
+        "Miercoles": 77,
+        "Jueves": 63,
+        "Viernes": 21
+      }
+    },
+    "Jorge Ferrada|Marzo": {
+      "total": 77,
+      "cne": 21,
+      "ctrl": 56,
+      "dias": {
+        "Lunes": 28,
+        "Miercoles": 49
+      }
+    },
+    "Manuel Campaña|Marzo": {
+      "total": 106,
+      "cne": 22,
+      "ctrl": 84,
+      "dias": {
+        "Lunes": 28,
+        "Martes": 24,
+        "Miercoles": 12,
+        "Jueves": 26,
+        "Viernes": 16
+      }
+    },
+    "Paula Besnier|Marzo": {
+      "total": 168,
+      "cne": 14,
+      "ctrl": 154,
+      "dias": {
+        "Martes": 56,
+        "Miercoles": 42,
+        "Lunes": 70
+      }
+    },
+    "Roberto Munoz|Marzo": {
+      "total": 276,
+      "cne": 24,
+      "ctrl": 252,
+      "dias": {
+        "Lunes": 72,
+        "Miercoles": 66,
+        "Jueves": 84,
+        "Viernes": 54
+      }
+    },
+    "Rodolfo Olivares|Marzo": {
+      "total": 182,
+      "cne": 21,
+      "ctrl": 161,
+      "dias": {
+        "Lunes": 77,
+        "Miercoles": 21,
+        "Jueves": 42,
+        "Martes": 42
+      }
+    },
+    "Sebastián Godoy|Marzo": {
+      "total": 144,
+      "cne": 42,
+      "ctrl": 102,
+      "dias": {
+        "Lunes": 54,
+        "Martes": 36,
+        "Miercoles": 22,
+        "Jueves": 24,
+        "Viernes": 8
+      }
+    },
+    "Gabriela Farías|Febrero": {
+      "total": 66,
+      "cne": 21,
+      "ctrl": 45,
+      "dias": {
+        "Lunes": 12,
+        "Martes": 9,
+        "Miercoles": 21,
+        "Jueves": 18,
+        "Viernes": 6
+      }
+    },
+    "Giselle Garrido|Febrero": {
+      "total": 544,
+      "cne": 192,
+      "ctrl": 352,
+      "dias": {
+        "Lunes": 112,
+        "Martes": 128,
+        "Miercoles": 88,
+        "Jueves": 120,
+        "Viernes": 96
+      }
+    },
+    "Manuel Campaña|Febrero": {
+      "total": 102,
+      "cne": 18,
+      "ctrl": 84,
+      "dias": {
+        "Viernes": 18,
+        "Lunes": 48,
+        "Martes": 15,
+        "Miercoles": 6,
+        "Jueves": 15
+      }
+    },
+    "Nikole Guerrero|Febrero": {
+      "total": 240,
+      "cne": 16,
+      "ctrl": 224,
+      "dias": {
+        "Lunes": 32,
+        "Martes": 24,
+        "Miercoles": 48,
+        "Jueves": 80,
+        "Viernes": 40
+      }
+    },
+    "Paula Besnier|Febrero": {
+      "total": 88,
+      "cne": 16,
+      "ctrl": 72,
+      "dias": {
+        "Lunes": 40,
+        "Martes": 8,
+        "Miercoles": 40
+      }
+    },
+    "Roberto Muñoz|Febrero": {
+      "total": 63,
+      "cne": 0,
+      "ctrl": 63,
+      "dias": {
+        "Miercoles": 18,
+        "Jueves": 18,
+        "Viernes": 18,
+        "Lunes": 9
+      }
+    },
+    "Rodolfo  Olivares|Febrero": {
+      "total": 72,
+      "cne": 0,
+      "ctrl": 72,
+      "dias": {
+        "Martes": 40,
+        "Jueves": 28,
+        "Miercoles": 4
+      }
+    },
+    "Sebastián Godoy|Febrero": {
+      "total": 57,
+      "cne": 21,
+      "ctrl": 36,
+      "dias": {
+        "Lunes": 15,
+        "Martes": 12,
+        "Miercoles": 9,
+        "Jueves": 9,
+        "Viernes": 12
+      }
+    },
+    "Andres Caballero|Enero": {
+      "total": 315,
+      "cne": 133,
+      "ctrl": 182,
+      "dias": {
+        "Lunes": 84,
+        "Martes": 98,
+        "Miercoles": 112,
+        "Jueves": 21
+      }
+    },
+    "Carlos Humeres|Enero": {
+      "total": 77,
+      "cne": 21,
+      "ctrl": 56,
+      "dias": {
+        "Lunes": 14,
+        "Martes": 21,
+        "Miercoles": 28,
+        "Jueves": 7,
+        "Viernes": 7
+      }
+    },
+    "Jimena Carrasco|Enero": {
+      "total": 504,
+      "cne": 182,
+      "ctrl": 322,
+      "dias": {
+        "Martes": 112,
+        "Miercoles": 119,
+        "Jueves": 98,
+        "Viernes": 84,
+        "Lunes": 91
+      }
+    },
+    "Jorge Ferrada|Enero": {
+      "total": 196,
+      "cne": 21,
+      "ctrl": 175,
+      "dias": {
+        "Lunes": 84,
+        "Miercoles": 63,
+        "Jueves": 49
+      }
+    },
+    "Luis Amengual|Enero": {
+      "total": 98,
+      "cne": 42,
+      "ctrl": 56,
+      "dias": {}
+    },
+    "Paula Besnier|Enero": {
+      "total": 126,
+      "cne": 56,
+      "ctrl": 70,
+      "dias": {
+        "Lunes": 35,
+        "Miercoles": 70,
+        "Martes": 21
+      }
+    },
+    "Paulina González|Enero": {
+      "total": 14,
+      "cne": 10,
+      "ctrl": 4,
+      "dias": {}
+    },
+    "Yasna Covarrubias|Enero": {
+      "total": 483,
+      "cne": 154,
+      "ctrl": 329,
+      "dias": {
+        "Martes": 196,
+        "Miercoles": 126,
+        "Lunes": 154
+      }
+    },
+    "Andres Caballero|Febrero": {
+      "total": 168,
+      "cne": 119,
+      "ctrl": 49,
+      "dias": {
+        "Lunes": 42,
+        "Martes": 49,
+        "Miercoles": 49,
+        "Jueves": 28
+      }
+    },
+    "Carlos Humeres|Febrero": {
+      "total": 35,
+      "cne": 14,
+      "ctrl": 21,
+      "dias": {
+        "Lunes": 21,
+        "Martes": 14
+      }
+    },
+    "Gabriela ovando Periodoncia|Febrero": {
+      "total": 30,
+      "cne": 17,
+      "ctrl": 13,
+      "dias": {
+        "Martes": 12,
+        "Miercoles": 6,
+        "Viernes": 12
+      }
+    },
+    "Irene Gutiérrez|Febrero": {
+      "total": 48,
+      "cne": 14,
+      "ctrl": 34,
+      "dias": {
+        "Viernes": 14,
+        "Lunes": 8,
+        "Martes": 8,
+        "Miercoles": 10,
+        "Jueves": 8
+      }
+    },
+    "Jimena Carrasco|Febrero": {
+      "total": 497,
+      "cne": 210,
+      "ctrl": 287,
+      "dias": {
+        "Lunes": 154,
+        "Martes": 112,
+        "Miercoles": 70,
+        "Jueves": 98,
+        "Viernes": 63
+      }
+    },
+    "Juan Jose|Febrero": {
+      "total": 128,
+      "cne": 68,
+      "ctrl": 58,
+      "dias": {
+        "Lunes": 14
+      }
+    },
+    "Fernando Durán|Enero": {
+      "total": 49,
+      "cne": 23,
+      "ctrl": 26,
+      "dias": {
+        "Lunes": 16,
+        "Miercoles": 13,
+        "Jueves": 13,
+        "Viernes": 7
+      }
+    },
+    "Irene Gutiérrez|Enero": {
+      "total": 25,
+      "cne": 6,
+      "ctrl": 19,
+      "dias": {
+        "Lunes": 9,
+        "Miercoles": 7,
+        "Viernes": 2,
+        "Jueves": 3,
+        "Martes": 4
+      }
+    },
+    "Marcelo Rivera|Enero": {
+      "total": 18,
+      "cne": 0,
+      "ctrl": 18,
+      "dias": {
+        "Jueves": 6,
+        "Miercoles": 6,
+        "Lunes": 6
+      }
+    },
+    "Roberto Muñoz|Enero": {
+      "total": 26,
+      "cne": 0,
+      "ctrl": 26,
+      "dias": {
+        "Lunes": 6,
+        "Miercoles": 9,
+        "Jueves": 3,
+        "Viernes": 8
+      }
+    },
+    "Fernando Durán|Febrero": {
+      "total": 8,
+      "cne": 8,
+      "ctrl": 0,
+      "dias": {
+        "Lunes": 2,
+        "Jueves": 2,
+        "Viernes": 4
+      }
+    },
+    "Gabriela Ovando|Febrero": {
+      "total": 180,
+      "cne": 102,
+      "ctrl": 78,
+      "dias": {
+        "Martes": 72,
+        "Miercoles": 36,
+        "Viernes": 72
+      }
+    },
+    "Pablo Spencer|Febrero": {
+      "total": 60,
+      "cne": 12,
+      "ctrl": 48,
+      "dias": {
+        "Jueves": 42,
+        "Martes": 6,
+        "Viernes": 12
+      }
+    },
+    "Yasna Covarrubias|Febrero": {
+      "total": 138,
+      "cne": 30,
+      "ctrl": 108,
+      "dias": {
+        "Lunes": 48,
+        "Martes": 36,
+        "Domingo": 36,
+        "Miercoles": 18
+      }
+    },
+    "Andres Caballero|Marzo": {
+      "total": 240,
+      "cne": 132,
+      "ctrl": 108,
+      "dias": {
+        "Lunes": 96,
+        "Martes": 48,
+        "Miercoles": 60,
+        "Jueves": 36
+      }
+    },
+    "Fernando Durán|Marzo": {
+      "total": 46,
+      "cne": 24,
+      "ctrl": 22,
+      "dias": {
+        "Lunes": 21,
+        "Miercoles": 14,
+        "Jueves": 6,
+        "Viernes": 5
+      }
+    },
+    "Gabriela Ovando|Marzo": {
+      "total": 204,
+      "cne": 96,
+      "ctrl": 108,
+      "dias": {
+        "Martes": 132,
+        "Jueves": 24,
+        "Viernes": 24,
+        "Miercoles": 24
+      }
+    },
+    "Irene Gutiérrez|Marzo": {
+      "total": 30,
+      "cne": 7,
+      "ctrl": 22,
+      "dias": {
+        "Lunes": 8,
+        "Martes": 5,
+        "Miercoles": 9,
+        "Jueves": 2,
+        "Viernes": 6
+      }
+    },
+    "Jimena Carrasco|Marzo": {
+      "total": 318,
+      "cne": 150,
+      "ctrl": 168,
+      "dias": {
+        "Lunes": 72,
+        "Martes": 96,
+        "Miercoles": 54,
+        "Jueves": 66,
+        "Viernes": 30
+      }
+    },
+    "Juan Jose|Marzo": {
+      "total": 12,
+      "cne": 8,
+      "ctrl": 4,
+      "dias": {}
+    },
+    "Pablo Spencer|Marzo": {
+      "total": 216,
+      "cne": 42,
+      "ctrl": 174,
+      "dias": {
+        "Martes": 78,
+        "Jueves": 72,
+        "Viernes": 66
+      }
+    },
+    "Paulina González|Marzo": {
+      "total": 3,
+      "cne": 3,
+      "ctrl": 0,
+      "dias": {}
+    },
+    "Roberto Muñoz|Marzo": {
+      "total": 46,
+      "cne": 4,
+      "ctrl": 42,
+      "dias": {
+        "Lunes": 12,
+        "Miercoles": 11,
+        "Jueves": 14,
+        "Viernes": 9
+      }
+    },
+    "Yasna Covarrubias|Marzo": {
+      "total": 306,
+      "cne": 72,
+      "ctrl": 234,
+      "dias": {
+        "Viernes": 48,
+        "Lunes": 114,
+        "Martes": 78,
+        "Miercoles": 66
+      }
+    },
+    "Fernando Duran|Enero": {
+      "total": 245,
+      "cne": 115,
+      "ctrl": 130,
+      "dias": {
+        "Lunes": 80,
+        "Miercoles": 65,
+        "Jueves": 65,
+        "Viernes": 35
+      }
+    },
+    "Gabriela Farias|Enero": {
+      "total": 145,
+      "cne": 10,
+      "ctrl": 135,
+      "dias": {
+        "Lunes": 25,
+        "Martes": 25,
+        "Miercoles": 35,
+        "Jueves": 40,
+        "Viernes": 20
+      }
+    },
+    "Irene Gutierrez|Enero": {
+      "total": 125,
+      "cne": 30,
+      "ctrl": 95,
+      "dias": {
+        "Lunes": 45,
+        "Miercoles": 35,
+        "Viernes": 10,
+        "Jueves": 15,
+        "Martes": 20
+      }
+    },
+    "Juan Bugueno|Enero": {
+      "total": 30,
+      "cne": 30,
+      "ctrl": 0,
+      "dias": {
+        "Miercoles": 5,
+        "Martes": 5
+      }
+    },
+    "Juan Cortes|Enero": {
+      "total": 60,
+      "cne": 40,
+      "ctrl": 20,
+      "dias": {}
+    },
+    "Paulina Gonzalez|Enero": {
+      "total": 35,
+      "cne": 25,
+      "ctrl": 10,
+      "dias": {}
+    },
+    "Roberto Munoz|Enero": {
+      "total": 130,
+      "cne": 0,
+      "ctrl": 130,
+      "dias": {
+        "Lunes": 30,
+        "Miercoles": 45,
+        "Jueves": 15,
+        "Viernes": 40
+      }
+    },
+    "Sebastian Godoy|Enero": {
+      "total": 245,
+      "cne": 65,
+      "ctrl": 180,
+      "dias": {
+        "Lunes": 45,
+        "Martes": 65,
+        "Miercoles": 60,
+        "Jueves": 35,
+        "Viernes": 40
+      }
+    },
+    "Fernando Duran|Febrero": {
+      "total": 40,
+      "cne": 40,
+      "ctrl": 0,
+      "dias": {
+        "Lunes": 10,
+        "Jueves": 10,
+        "Viernes": 20
+      }
+    },
+    "Gabriela Farias|Febrero": {
+      "total": 110,
+      "cne": 35,
+      "ctrl": 75,
+      "dias": {
+        "Lunes": 20,
+        "Martes": 15,
+        "Miercoles": 35,
+        "Jueves": 30,
+        "Viernes": 10
+      }
+    },
+    "Irene Gutierrez|Febrero": {
+      "total": 120,
+      "cne": 35,
+      "ctrl": 85,
+      "dias": {
+        "Viernes": 35,
+        "Lunes": 20,
+        "Martes": 20,
+        "Miercoles": 25,
+        "Jueves": 20
+      }
+    },
+    "Juan Cortes|Febrero": {
+      "total": 320,
+      "cne": 170,
+      "ctrl": 145,
+      "dias": {
+        "Lunes": 35
+      }
+    },
+    "Manuel Campana|Febrero": {
+      "total": 170,
+      "cne": 30,
+      "ctrl": 140,
+      "dias": {
+        "Viernes": 30,
+        "Lunes": 80,
+        "Martes": 25,
+        "Miercoles": 10,
+        "Jueves": 25
+      }
+    },
+    "Roberto Munoz|Febrero": {
+      "total": 105,
+      "cne": 0,
+      "ctrl": 105,
+      "dias": {
+        "Miercoles": 30,
+        "Jueves": 30,
+        "Viernes": 30,
+        "Lunes": 15
+      }
+    },
+    "Sebastian Godoy|Febrero": {
+      "total": 95,
+      "cne": 35,
+      "ctrl": 60,
+      "dias": {
+        "Lunes": 25,
+        "Martes": 20,
+        "Miercoles": 15,
+        "Jueves": 15,
+        "Viernes": 20
+      }
+    },
+    "Fernando Duran|Marzo": {
+      "total": 230,
+      "cne": 120,
+      "ctrl": 110,
+      "dias": {
+        "Lunes": 105,
+        "Miercoles": 70,
+        "Jueves": 30,
+        "Viernes": 25
+      }
+    },
+    "Irene Gutierrez|Marzo": {
+      "total": 150,
+      "cne": 35,
+      "ctrl": 110,
+      "dias": {
+        "Lunes": 40,
+        "Martes": 25,
+        "Miercoles": 45,
+        "Jueves": 10,
+        "Viernes": 30
+      }
+    },
+    "Juan Cortes|Marzo": {
+      "total": 60,
+      "cne": 40,
+      "ctrl": 20,
+      "dias": {}
+    },
+    "Manuel Campana|Marzo": {
+      "total": 265,
+      "cne": 55,
+      "ctrl": 210,
+      "dias": {
+        "Lunes": 70,
+        "Martes": 60,
+        "Miercoles": 30,
+        "Jueves": 65,
+        "Viernes": 40
+      }
+    },
+    "Paulina Gonzalez|Marzo": {
+      "total": 15,
+      "cne": 15,
+      "ctrl": 0,
+      "dias": {}
+    },
+    "Sebastian Godoy|Marzo": {
+      "total": 360,
+      "cne": 105,
+      "ctrl": 255,
+      "dias": {
+        "Lunes": 135,
+        "Martes": 90,
+        "Miercoles": 55,
+        "Jueves": 60,
+        "Viernes": 20
+      }
+    },
+    "Irene Gutierrez|Abril": {
+      "total": 148,
+      "cne": 48,
+      "ctrl": 96,
+      "dias": {
+        "Miercoles": 32,
+        "Jueves": 40,
+        "Lunes": 40,
+        "Martes": 20,
+        "Viernes": 16
+      }
+    },
+    "Jorge Ferrada|Abril": {
+      "total": 160,
+      "cne": 16,
+      "ctrl": 144,
+      "dias": {
+        "Miercoles": 48,
+        "Jueves": 68,
+        "Lunes": 44
+      }
+    },
+    "Nikole Guerrero|Abril": {
+      "total": 84,
+      "cne": 8,
+      "ctrl": 76,
+      "dias": {
+        "Jueves": 32,
+        "Lunes": 8,
+        "Martes": 20,
+        "Miercoles": 20,
+        "Viernes": 4
+      }
+    },
+    "Roberto Munoz|Abril": {
+      "total": 140,
+      "cne": 12,
+      "ctrl": 128,
+      "dias": {
+        "Miercoles": 64,
+        "Jueves": 32,
+        "Lunes": 28,
+        "Viernes": 16
+      }
+    },
+    "Rodolfo Olivares|Abril": {
+      "total": 112,
+      "cne": 16,
+      "ctrl": 96,
+      "dias": {
+        "Miercoles": 52,
+        "Jueves": 28,
+        "Lunes": 12,
+        "Martes": 4
+      }
+    },
+    "Yasna Covarrubias|Abril": {
+      "total": 176,
+      "cne": 40,
+      "ctrl": 136,
+      "dias": {
+        "Miercoles": 52,
+        "Lunes": 56,
+        "Viernes": 48,
+        "Martes": 20
+      }
+    },
+    "Rodolfo Olivares|Febrero": {
+      "total": 72,
+      "cne": 0,
+      "ctrl": 72,
+      "dias": {
+        "Martes": 40,
+        "Jueves": 28,
+        "Miercoles": 4
+      }
+    }
+  }
+}
