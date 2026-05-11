@@ -1,5 +1,5 @@
 {
-  "actualizado": "11/05/2026 10:42",
+  "actualizado": "11/05/2026 17:41",
   "meses": [
     "01_Enero",
     "02_Febrero",
@@ -1668,50 +1668,6 @@
           "indicadores": "Prot Remov Acrilica:34 | Prot Remov Metalica:0 | Prot Fija Unitaria:2 | Prot Fija InlayOnlay:2",
           "meta_altas_mes": 2200,
           "meta_cne_mes": 2900
-        }
-      }
-    },
-    "Irma Torres": {
-      "especialidad": "Radiologia Dental",
-      "color": "#9B9B9B",
-      "meta_altas": 0,
-      "meta_cne": 0,
-      "meses": {
-        "04_Abril": {
-          "mes_num": 4,
-          "cne": 0,
-          "control": 0,
-          "ingresos": 0,
-          "altas": 0,
-          "inasist_cne": 0,
-          "inasist_ctrl": 0,
-          "ppv": 0,
-          "ppv_detalle": "",
-          "indicadores": "Retroalveolar:149 | Bite Wing:73 | CBCT Craneofacial:6 | CBCT Unimaxilar:14 | CBCT Zona Dentaria:7 | Extraoral:186",
-          "meta_altas_mes": 0,
-          "meta_cne_mes": 0
-        }
-      }
-    },
-    "Juan Bugueño": {
-      "especialidad": "Cirugia Maxilofacial",
-      "color": "#0B4F72",
-      "meta_altas": 0,
-      "meta_cne": 0,
-      "meses": {
-        "04_Abril": {
-          "mes_num": 4,
-          "cne": 104,
-          "control": 147,
-          "ingresos": 119,
-          "altas": 119,
-          "inasist_cne": 66,
-          "inasist_ctrl": 33,
-          "ppv": 13752630,
-          "ppv_detalle": "2505977x23 | 2505976x22",
-          "indicadores": "",
-          "meta_altas_mes": 0,
-          "meta_cne_mes": 0
         }
       }
     }
