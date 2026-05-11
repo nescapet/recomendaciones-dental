@@ -1,5 +1,5 @@
 {
-  "actualizado": "11/05/2026 09:44",
+  "actualizado": "11/05/2026 10:33",
   "meses": [
     "01_Enero",
     "02_Febrero",
@@ -825,14 +825,14 @@
         },
         "04_Abril": {
           "mes_num": 4,
-          "cne": 0,
-          "control": 0,
-          "ingresos": 0,
-          "altas": 0,
-          "inasist_cne": 0,
-          "inasist_ctrl": 0,
-          "ppv": 0,
-          "ppv_detalle": "",
+          "cne": 11,
+          "control": 47,
+          "ingresos": 41,
+          "altas": 41,
+          "inasist_cne": 3,
+          "inasist_ctrl": 15,
+          "ppv": 5728550,
+          "ppv_detalle": "2505977x13 | 2505976x4",
           "indicadores": "",
           "meta_altas_mes": 2200,
           "meta_cne_mes": 3600
@@ -1521,8 +1521,8 @@
           "altas": 12,
           "inasist_cne": 10,
           "inasist_ctrl": 34,
-          "ppv": 0,
-          "ppv_detalle": "",
+          "ppv": 2542920,
+          "ppv_detalle": "2505979x12",
           "indicadores": "Terapia Fisica TTM:0 | Instalacion Dispositivo:20",
           "meta_altas_mes": 600,
           "meta_cne_mes": 1000
@@ -2563,70 +2563,70 @@
       }
     },
     "Irene Gutierrez|Abril": {
-      "total": 185,
-      "cne": 60,
-      "ctrl": 120,
+      "total": 222,
+      "cne": 72,
+      "ctrl": 144,
       "dias": {
-        "Miercoles": 40,
-        "Jueves": 50,
-        "Lunes": 50,
-        "Martes": 25,
-        "Viernes": 20
+        "Miercoles": 48,
+        "Jueves": 60,
+        "Lunes": 60,
+        "Martes": 30,
+        "Viernes": 24
       }
     },
     "Jorge Ferrada|Abril": {
-      "total": 200,
-      "cne": 20,
-      "ctrl": 180,
+      "total": 240,
+      "cne": 24,
+      "ctrl": 216,
       "dias": {
-        "Miercoles": 60,
-        "Jueves": 85,
-        "Lunes": 55
+        "Miercoles": 72,
+        "Jueves": 102,
+        "Lunes": 66
       }
     },
     "Nikole Guerrero|Abril": {
-      "total": 105,
-      "cne": 10,
-      "ctrl": 95,
+      "total": 126,
+      "cne": 12,
+      "ctrl": 114,
       "dias": {
-        "Jueves": 40,
-        "Lunes": 10,
-        "Martes": 25,
-        "Miercoles": 25,
-        "Viernes": 5
+        "Jueves": 48,
+        "Lunes": 12,
+        "Martes": 30,
+        "Miercoles": 30,
+        "Viernes": 6
       }
     },
     "Roberto Munoz|Abril": {
-      "total": 175,
-      "cne": 15,
-      "ctrl": 160,
+      "total": 210,
+      "cne": 18,
+      "ctrl": 192,
       "dias": {
-        "Miercoles": 80,
-        "Jueves": 40,
-        "Lunes": 35,
-        "Viernes": 20
+        "Miercoles": 96,
+        "Jueves": 48,
+        "Lunes": 42,
+        "Viernes": 24
       }
     },
     "Rodolfo Olivares|Abril": {
-      "total": 140,
-      "cne": 20,
-      "ctrl": 120,
+      "total": 168,
+      "cne": 24,
+      "ctrl": 144,
       "dias": {
-        "Miercoles": 65,
-        "Jueves": 35,
-        "Lunes": 15,
-        "Martes": 5
+        "Miercoles": 78,
+        "Jueves": 42,
+        "Lunes": 18,
+        "Martes": 6
       }
     },
     "Yasna Covarrubias|Abril": {
-      "total": 264,
-      "cne": 60,
-      "ctrl": 204,
+      "total": 308,
+      "cne": 70,
+      "ctrl": 238,
       "dias": {
-        "Miercoles": 78,
-        "Lunes": 84,
-        "Viernes": 72,
-        "Martes": 30
+        "Miercoles": 91,
+        "Lunes": 98,
+        "Viernes": 84,
+        "Martes": 35
       }
     },
     "Rodolfo Olivares|Febrero": {
@@ -2640,112 +2640,118 @@
       }
     },
     "Carlos Humeres|Abril": {
-      "total": 72,
-      "cne": 16,
-      "ctrl": 56,
+      "total": 144,
+      "cne": 32,
+      "ctrl": 112,
       "dias": {
-        "Martes": 10,
-        "Miercoles": 20,
-        "Jueves": 24,
-        "Lunes": 12,
-        "Viernes": 6
+        "Martes": 20,
+        "Miercoles": 40,
+        "Jueves": 48,
+        "Lunes": 24,
+        "Viernes": 12
       }
     },
     "Fernando Duran|Abril": {
-      "total": 38,
-      "cne": 17,
-      "ctrl": 21,
+      "total": 76,
+      "cne": 34,
+      "ctrl": 42,
       "dias": {
-        "Miercoles": 8,
-        "Jueves": 9,
-        "Domingo": 4,
-        "Viernes": 9,
-        "Lunes": 8
+        "Miercoles": 16,
+        "Jueves": 18,
+        "Domingo": 8,
+        "Viernes": 18,
+        "Lunes": 16
       }
     },
     "Gabriela Ovando|Abril": {
-      "total": 18,
-      "cne": 6,
-      "ctrl": 12,
+      "total": 36,
+      "cne": 12,
+      "ctrl": 24,
       "dias": {
-        "Martes": 9,
-        "Miercoles": 3,
-        "Viernes": 6
+        "Martes": 18,
+        "Miercoles": 6,
+        "Viernes": 12
       }
     },
     "Giselle Garrido|Abril": {
-      "total": 68,
-      "cne": 24,
-      "ctrl": 44,
+      "total": 136,
+      "cne": 48,
+      "ctrl": 88,
       "dias": {
-        "Miercoles": 21,
-        "Jueves": 13,
-        "Lunes": 15,
-        "Martes": 13,
-        "Viernes": 6
+        "Miercoles": 42,
+        "Jueves": 26,
+        "Lunes": 30,
+        "Martes": 26,
+        "Viernes": 12
       }
     },
     "Jimena Carrasco|Abril": {
-      "total": 45,
-      "cne": 29,
-      "ctrl": 16,
+      "total": 90,
+      "cne": 58,
+      "ctrl": 32,
       "dias": {
-        "Lunes": 11,
-        "Martes": 10,
-        "Miercoles": 13,
-        "Jueves": 7,
-        "Viernes": 4
+        "Lunes": 22,
+        "Martes": 20,
+        "Miercoles": 26,
+        "Jueves": 14,
+        "Viernes": 8
       }
     },
     "Juan Bugueño|Abril": {
-      "total": 99,
-      "cne": 66,
-      "ctrl": 33,
+      "total": 198,
+      "cne": 132,
+      "ctrl": 66,
       "dias": {}
     },
     "Manuel Campana|Abril": {
-      "total": 44,
-      "cne": 19,
-      "ctrl": 25,
+      "total": 88,
+      "cne": 38,
+      "ctrl": 50,
       "dias": {
-        "Miercoles": 9,
-        "Jueves": 10,
-        "Lunes": 13,
-        "Viernes": 6,
-        "Martes": 6
+        "Miercoles": 18,
+        "Jueves": 20,
+        "Lunes": 26,
+        "Viernes": 12,
+        "Martes": 12
       }
     },
     "Pablo Spencer|Abril": {
-      "total": 32,
-      "cne": 14,
-      "ctrl": 18,
+      "total": 64,
+      "cne": 28,
+      "ctrl": 36,
       "dias": {
-        "Jueves": 19,
-        "Martes": 8,
-        "Viernes": 5
+        "Jueves": 38,
+        "Martes": 16,
+        "Viernes": 10
       }
     },
     "Paula Besnier|Abril": {
-      "total": 33,
-      "cne": 4,
-      "ctrl": 29,
+      "total": 66,
+      "cne": 8,
+      "ctrl": 58,
       "dias": {
-        "Miercoles": 20,
-        "Lunes": 10,
-        "Martes": 3
+        "Miercoles": 40,
+        "Lunes": 20,
+        "Martes": 6
       }
     },
     "Sebastian Godoy|Abril": {
-      "total": 60,
-      "cne": 17,
-      "ctrl": 43,
+      "total": 120,
+      "cne": 34,
+      "ctrl": 86,
       "dias": {
-        "Miercoles": 26,
-        "Jueves": 14,
-        "Lunes": 6,
-        "Martes": 7,
-        "Viernes": 7
+        "Miercoles": 52,
+        "Jueves": 28,
+        "Lunes": 12,
+        "Martes": 14,
+        "Viernes": 14
       }
+    },
+    "Juan Cortes|Abril": {
+      "total": 18,
+      "cne": 3,
+      "ctrl": 15,
+      "dias": {}
     }
   }
 }
