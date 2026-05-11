@@ -1,9 +1,10 @@
 {
-  "actualizado": "11/05/2026 18:26",
+  "actualizado": "11/05/2026 18:34",
   "meses": [
     "01_Enero",
     "02_Febrero",
-    "03_Marzo"
+    "03_Marzo",
+    "04_Abril"
   ],
   "especialistas": {
     "Andres Caballero": {
@@ -53,6 +54,20 @@
           "indicadores": "Unirradicular:4 | Birradicular:4 | Multirradicular:2 | Retratamiento:1",
           "meta_altas_mes": 1970,
           "meta_cne_mes": 2730
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2000,
+          "meta_cne_mes": 2700
         }
       }
     },
@@ -101,6 +116,20 @@
           "ppv": 0,
           "ppv_detalle": "",
           "indicadores": "Retroalveolar:120 | Bite Wing:98 | CBCT Craneofacial:3 | CBCT Unimaxilar:11 | CBCT Zona Dentaria:5 | Extraoral:138",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:133 | Bite Wing:70 | CBCT Craneofacial:5 | CBCT Unimaxilar:16 | CBCT Zona Dentaria:11 | Extraoral:187",
           "meta_altas_mes": 0,
           "meta_cne_mes": 0
         }
@@ -153,6 +182,20 @@
           "indicadores": "",
           "meta_altas_mes": 1880,
           "meta_cne_mes": 2910
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 89,
+          "control": 230,
+          "ingresos": 101,
+          "altas": 101,
+          "inasist_cne": 16,
+          "inasist_ctrl": 56,
+          "ppv": 4596900,
+          "ppv_detalle": "2505980x30",
+          "indicadores": "Estudio Histopatologico:23",
+          "meta_altas_mes": 1900,
+          "meta_cne_mes": 2900
         }
       }
     },
@@ -203,6 +246,20 @@
           "indicadores": "",
           "meta_altas_mes": 660,
           "meta_cne_mes": 1520
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 700,
+          "meta_cne_mes": 1500
         }
       }
     },
@@ -253,6 +310,20 @@
           "indicadores": "Unirradicular:9 | Birradicular:9 | Multirradicular:3 | Retratamiento:1",
           "meta_altas_mes": 2620,
           "meta_cne_mes": 3640
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 43,
+          "control": 74,
+          "ingresos": 14,
+          "altas": 14,
+          "inasist_cne": 17,
+          "inasist_ctrl": 21,
+          "ppv": 2032290,
+          "ppv_detalle": "2505641x13",
+          "indicadores": "Unirradicular:2 | Birradicular:6 | Multirradicular:4 | Retratamiento:0",
+          "meta_altas_mes": 2600,
+          "meta_cne_mes": 3600
         }
       }
     },
@@ -303,6 +374,20 @@
           "indicadores": "Prot Remov Acrilica:35 | Prot Remov Metalica:0 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:6",
           "meta_altas_mes": 2170,
           "meta_cne_mes": 2870
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 2200,
+          "meta_cne_mes": 2900
         }
       }
     },
@@ -353,6 +438,20 @@
           "indicadores": "Prot Remov Acrilica:40 | Prot Remov Metalica:4 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:0",
           "meta_altas_mes": 2170,
           "meta_cne_mes": 2870
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 37,
+          "control": 222,
+          "ingresos": 39,
+          "altas": 39,
+          "inasist_cne": 24,
+          "inasist_ctrl": 44,
+          "ppv": 12595770,
+          "ppv_detalle": "2505642x31 | 2505643x5",
+          "indicadores": "Prot Remov Acrilica:61 | Prot Remov Metalica:0 | Prot Fija Unitaria:3 | Prot Fija InlayOnlay:4",
+          "meta_altas_mes": 2200,
+          "meta_cne_mes": 2900
         }
       }
     },
@@ -403,6 +502,20 @@
           "indicadores": "Proc Restaurador:36 | Proc Pulpar:7",
           "meta_altas_mes": 740,
           "meta_cne_mes": 910
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 19,
+          "control": 147,
+          "ingresos": 7,
+          "altas": 7,
+          "inasist_cne": 12,
+          "inasist_ctrl": 24,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Proc Restaurador:33 | Proc Pulpar:3",
+          "meta_altas_mes": 700,
+          "meta_cne_mes": 900
         }
       }
     },
@@ -451,6 +564,20 @@
           "ppv": 0,
           "ppv_detalle": "",
           "indicadores": "Retroalveolar:167 | Bite Wing:104 | CBCT Craneofacial:2 | CBCT Unimaxilar:9 | CBCT Zona Dentaria:5 | Extraoral:177",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:149 | Bite Wing:73 | CBCT Craneofacial:6 | CBCT Unimaxilar:14 | CBCT Zona Dentaria:7 | Extraoral:186",
           "meta_altas_mes": 0,
           "meta_cne_mes": 0
         }
@@ -503,6 +630,20 @@
           "indicadores": "Unirradicular:17 | Birradicular:8 | Multirradicular:5 | Retratamiento:0",
           "meta_altas_mes": 1970,
           "meta_cne_mes": 2730
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 39,
+          "control": 64,
+          "ingresos": 28,
+          "altas": 28,
+          "inasist_cne": 29,
+          "inasist_ctrl": 16,
+          "ppv": 4064580,
+          "ppv_detalle": "2505641x26",
+          "indicadores": "Unirradicular:10 | Birradicular:10 | Multirradicular:8 | Retratamiento:0",
+          "meta_altas_mes": 2000,
+          "meta_cne_mes": 2700
         }
       }
     },
@@ -552,6 +693,20 @@
           "ppv_detalle": "",
           "indicadores": "",
           "meta_altas_mes": 910,
+          "meta_cne_mes": 1100
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 28,
+          "control": 93,
+          "ingresos": 9,
+          "altas": 9,
+          "inasist_cne": 4,
+          "inasist_ctrl": 36,
+          "ppv": 2540520,
+          "ppv_detalle": "2505978x9",
+          "indicadores": "Destartraje Subgingival:39 | Destartraje Supragingival:260",
+          "meta_altas_mes": 900,
           "meta_cne_mes": 1100
         }
       }
@@ -603,6 +758,20 @@
           "indicadores": "",
           "meta_altas_mes": 2170,
           "meta_cne_mes": 3620
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 104,
+          "control": 147,
+          "ingresos": 119,
+          "altas": 119,
+          "inasist_cne": 66,
+          "inasist_ctrl": 33,
+          "ppv": 13752630,
+          "ppv_detalle": "2505977x23 | 2505976x22",
+          "indicadores": "",
+          "meta_altas_mes": 2200,
+          "meta_cne_mes": 3600
         }
       }
     },
@@ -653,6 +822,20 @@
           "indicadores": "",
           "meta_altas_mes": 2170,
           "meta_cne_mes": 3620
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 11,
+          "control": 47,
+          "ingresos": 41,
+          "altas": 41,
+          "inasist_cne": 3,
+          "inasist_ctrl": 15,
+          "ppv": 5728550,
+          "ppv_detalle": "2505977x13 | 2505976x4",
+          "indicadores": "",
+          "meta_altas_mes": 2200,
+          "meta_cne_mes": 3600
         }
       }
     },
@@ -703,6 +886,20 @@
           "indicadores": "",
           "meta_altas_mes": 1110,
           "meta_cne_mes": 1190
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 28,
+          "control": 181,
+          "ingresos": 17,
+          "altas": 17,
+          "inasist_cne": 2,
+          "inasist_ctrl": 19,
+          "ppv": 7594200,
+          "ppv_detalle": "2505644x12",
+          "indicadores": "Etapa Protesica:17",
+          "meta_altas_mes": 1100,
+          "meta_cne_mes": 1200
         }
       }
     },
@@ -753,6 +950,20 @@
           "indicadores": "",
           "meta_altas_mes": 500,
           "meta_cne_mes": 1380
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1400
         }
       }
     },
@@ -803,6 +1014,20 @@
           "indicadores": "Aparatologia Fija:19 | Instalacion Contencion:8 | Retiros:14",
           "meta_altas_mes": 500,
           "meta_cne_mes": 1310
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 12,
+          "control": 202,
+          "ingresos": 5,
+          "altas": 5,
+          "inasist_cne": 2,
+          "inasist_ctrl": 19,
+          "ppv": 8113940,
+          "ppv_detalle": "2505639x2 | 2505638x18",
+          "indicadores": "Aparatologia Fija:21 | Instalacion Contencion:3 | Retiros:8",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1300
         }
       }
     },
@@ -853,6 +1078,20 @@
           "indicadores": "Proc Restaurador:0 | Proc Pulpar:2",
           "meta_altas_mes": 740,
           "meta_cne_mes": 910
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 15,
+          "control": 83,
+          "ingresos": 30,
+          "altas": 30,
+          "inasist_cne": 14,
+          "inasist_ctrl": 18,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Proc Restaurador:0 | Proc Pulpar:2",
+          "meta_altas_mes": 700,
+          "meta_cne_mes": 900
         }
       }
     },
@@ -903,6 +1142,20 @@
           "indicadores": "Proc Restaurador:8 | Proc Pulpar:4",
           "meta_altas_mes": 740,
           "meta_cne_mes": 910
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 29,
+          "control": 57,
+          "ingresos": 11,
+          "altas": 11,
+          "inasist_cne": 4,
+          "inasist_ctrl": 29,
+          "ppv": 3403080,
+          "ppv_detalle": "2505635x6 | 2505997x6 | 2505636x6",
+          "indicadores": "Proc Restaurador:22 | Proc Pulpar:8",
+          "meta_altas_mes": 700,
+          "meta_cne_mes": 900
         }
       }
     },
@@ -953,6 +1206,20 @@
           "indicadores": "",
           "meta_altas_mes": 4330,
           "meta_cne_mes": 7250
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "",
+          "meta_altas_mes": 4300,
+          "meta_cne_mes": 7200
         }
       }
     },
@@ -1003,6 +1270,20 @@
           "indicadores": "",
           "meta_altas_mes": 500,
           "meta_cne_mes": 1310
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 18,
+          "control": 208,
+          "ingresos": 4,
+          "altas": 4,
+          "inasist_cne": 3,
+          "inasist_ctrl": 31,
+          "ppv": 5240300,
+          "ppv_detalle": "2505638x11 | 2505639x2",
+          "indicadores": "Aparatologia Fija:15 | Instalacion Contencion:1 | Retiros:4",
+          "meta_altas_mes": 500,
+          "meta_cne_mes": 1300
         }
       }
     },
@@ -1053,6 +1334,20 @@
           "indicadores": "",
           "meta_altas_mes": 1620,
           "meta_cne_mes": 2150
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 24,
+          "control": 139,
+          "ingresos": 17,
+          "altas": 17,
+          "inasist_cne": 4,
+          "inasist_ctrl": 24,
+          "ppv": 5479210,
+          "ppv_detalle": "2505642x15 | 2505643x1",
+          "indicadores": "Prot Remov Acrilica:23 | Prot Remov Metalica:0 | Prot Fija Unitaria:0 | Prot Fija InlayOnlay:6",
+          "meta_altas_mes": 1600,
+          "meta_cne_mes": 2200
         }
       }
     },
@@ -1103,6 +1398,20 @@
           "indicadores": "",
           "meta_altas_mes": 2170,
           "meta_cne_mes": 2870
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 69,
+          "control": 201,
+          "ingresos": 17,
+          "altas": 17,
+          "inasist_cne": 17,
+          "inasist_ctrl": 43,
+          "ppv": 6489340,
+          "ppv_detalle": "2505642x14 | 2505636x4 | 2505643x2",
+          "indicadores": "Prot Remov Acrilica:23 | Prot Remov Metalica:1 | Prot Fija Unitaria:5 | Prot Fija InlayOnlay:0",
+          "meta_altas_mes": 2200,
+          "meta_cne_mes": 2900
         }
       }
     },
@@ -1151,6 +1460,20 @@
           "ppv": 0,
           "ppv_detalle": "",
           "indicadores": "",
+          "meta_altas_mes": 0,
+          "meta_cne_mes": 0
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 0,
+          "control": 0,
+          "ingresos": 0,
+          "altas": 0,
+          "inasist_cne": 0,
+          "inasist_ctrl": 0,
+          "ppv": 0,
+          "ppv_detalle": "",
+          "indicadores": "Retroalveolar:177 | Bite Wing:52 | CBCT Craneofacial:0 | CBCT Unimaxilar:14 | CBCT Zona Dentaria:9 | Extraoral:162",
           "meta_altas_mes": 0,
           "meta_cne_mes": 0
         }
@@ -1203,6 +1526,20 @@
           "indicadores": "",
           "meta_altas_mes": 580,
           "meta_cne_mes": 970
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 25,
+          "control": 142,
+          "ingresos": 12,
+          "altas": 12,
+          "inasist_cne": 10,
+          "inasist_ctrl": 34,
+          "ppv": 2542920,
+          "ppv_detalle": "2505979x12",
+          "indicadores": "Terapia Fisica TTM:0 | Instalacion Dispositivo:20",
+          "meta_altas_mes": 600,
+          "meta_cne_mes": 1000
         }
       }
     },
@@ -1252,6 +1589,20 @@
           "ppv_detalle": "",
           "indicadores": "",
           "meta_altas_mes": 910,
+          "meta_cne_mes": 1100
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 22,
+          "control": 47,
+          "ingresos": 9,
+          "altas": 9,
+          "inasist_cne": 6,
+          "inasist_ctrl": 12,
+          "ppv": 2540520,
+          "ppv_detalle": "2505978x9",
+          "indicadores": "Destartraje Subgingival:25 | Destartraje Supragingival:68",
+          "meta_altas_mes": 900,
           "meta_cne_mes": 1100
         }
       }
@@ -1303,6 +1654,20 @@
           "indicadores": "",
           "meta_altas_mes": 2170,
           "meta_cne_mes": 2870
+        },
+        "04_Abril": {
+          "mes_num": 4,
+          "cne": 34,
+          "control": 128,
+          "ingresos": 11,
+          "altas": 20,
+          "inasist_cne": 19,
+          "inasist_ctrl": 25,
+          "ppv": 6682900,
+          "ppv_detalle": "2505642x16 | 2505643x3",
+          "indicadores": "Prot Remov Acrilica:34 | Prot Remov Metalica:0 | Prot Fija Unitaria:2 | Prot Fija InlayOnlay:2",
+          "meta_altas_mes": 2200,
+          "meta_cne_mes": 2900
         }
       }
     }
@@ -1897,184 +2262,184 @@
       "dias": {}
     },
     "Irene Gutierrez|Abril": {
-      "total": 259,
-      "cne": 84,
-      "ctrl": 168,
+      "total": 296,
+      "cne": 96,
+      "ctrl": 192,
       "dias": {
-        "Miercoles": 56,
-        "Jueves": 70,
-        "Lunes": 70,
-        "Martes": 35,
-        "Viernes": 28
+        "Miercoles": 64,
+        "Jueves": 80,
+        "Lunes": 80,
+        "Martes": 40,
+        "Viernes": 32
       }
     },
     "Jorge Ferrada|Abril": {
-      "total": 280,
-      "cne": 28,
-      "ctrl": 252,
+      "total": 320,
+      "cne": 32,
+      "ctrl": 288,
       "dias": {
-        "Miercoles": 84,
-        "Jueves": 119,
-        "Lunes": 77
+        "Miercoles": 96,
+        "Jueves": 136,
+        "Lunes": 88
       }
     },
     "Nikole Guerrero|Abril": {
-      "total": 147,
-      "cne": 14,
-      "ctrl": 133,
+      "total": 168,
+      "cne": 16,
+      "ctrl": 152,
       "dias": {
-        "Jueves": 56,
-        "Lunes": 14,
-        "Martes": 35,
-        "Miercoles": 35,
-        "Viernes": 7
+        "Jueves": 64,
+        "Lunes": 16,
+        "Martes": 40,
+        "Miercoles": 40,
+        "Viernes": 8
       }
     },
     "Roberto Munoz|Abril": {
-      "total": 245,
-      "cne": 21,
-      "ctrl": 224,
+      "total": 280,
+      "cne": 24,
+      "ctrl": 256,
       "dias": {
-        "Miercoles": 112,
-        "Jueves": 56,
-        "Lunes": 49,
-        "Viernes": 28
+        "Miercoles": 128,
+        "Jueves": 64,
+        "Lunes": 56,
+        "Viernes": 32
       }
     },
     "Rodolfo Olivares|Abril": {
-      "total": 196,
-      "cne": 28,
-      "ctrl": 168,
+      "total": 224,
+      "cne": 32,
+      "ctrl": 192,
       "dias": {
-        "Miercoles": 91,
-        "Jueves": 49,
-        "Lunes": 21,
-        "Martes": 7
+        "Miercoles": 104,
+        "Jueves": 56,
+        "Lunes": 24,
+        "Martes": 8
       }
     },
     "Yasna Covarrubias|Abril": {
-      "total": 352,
-      "cne": 80,
-      "ctrl": 272,
+      "total": 396,
+      "cne": 90,
+      "ctrl": 306,
       "dias": {
-        "Miercoles": 104,
-        "Lunes": 112,
-        "Viernes": 96,
-        "Martes": 40
+        "Miercoles": 117,
+        "Lunes": 126,
+        "Viernes": 108,
+        "Martes": 45
       }
     },
     "Carlos Humeres|Abril": {
-      "total": 216,
-      "cne": 48,
-      "ctrl": 168,
+      "total": 288,
+      "cne": 64,
+      "ctrl": 224,
       "dias": {
-        "Martes": 30,
-        "Miercoles": 60,
-        "Jueves": 72,
-        "Lunes": 36,
-        "Viernes": 18
+        "Martes": 40,
+        "Miercoles": 80,
+        "Jueves": 96,
+        "Lunes": 48,
+        "Viernes": 24
       }
     },
     "Fernando Duran|Abril": {
-      "total": 114,
-      "cne": 51,
-      "ctrl": 63,
+      "total": 152,
+      "cne": 68,
+      "ctrl": 84,
       "dias": {
-        "Miercoles": 24,
-        "Jueves": 27,
-        "Domingo": 12,
-        "Viernes": 27,
-        "Lunes": 24
+        "Miercoles": 32,
+        "Jueves": 36,
+        "Domingo": 16,
+        "Viernes": 36,
+        "Lunes": 32
       }
     },
     "Gabriela Ovando|Abril": {
-      "total": 54,
-      "cne": 18,
-      "ctrl": 36,
+      "total": 72,
+      "cne": 24,
+      "ctrl": 48,
       "dias": {
-        "Martes": 27,
-        "Miercoles": 9,
-        "Viernes": 18
+        "Martes": 36,
+        "Miercoles": 12,
+        "Viernes": 24
       }
     },
     "Giselle Garrido|Abril": {
-      "total": 204,
-      "cne": 72,
-      "ctrl": 132,
+      "total": 272,
+      "cne": 96,
+      "ctrl": 176,
       "dias": {
-        "Miercoles": 63,
-        "Jueves": 39,
-        "Lunes": 45,
-        "Martes": 39,
-        "Viernes": 18
+        "Miercoles": 84,
+        "Jueves": 52,
+        "Lunes": 60,
+        "Martes": 52,
+        "Viernes": 24
       }
     },
     "Jimena Carrasco|Abril": {
-      "total": 135,
-      "cne": 87,
-      "ctrl": 48,
+      "total": 180,
+      "cne": 116,
+      "ctrl": 64,
       "dias": {
-        "Lunes": 33,
-        "Martes": 30,
-        "Miercoles": 39,
-        "Jueves": 21,
-        "Viernes": 12
+        "Lunes": 44,
+        "Martes": 40,
+        "Miercoles": 52,
+        "Jueves": 28,
+        "Viernes": 16
       }
     },
     "Juan Bugueno|Abril": {
-      "total": 297,
-      "cne": 198,
-      "ctrl": 99,
+      "total": 396,
+      "cne": 264,
+      "ctrl": 132,
       "dias": {}
     },
     "Manuel Campana|Abril": {
-      "total": 132,
-      "cne": 57,
-      "ctrl": 75,
+      "total": 176,
+      "cne": 76,
+      "ctrl": 100,
       "dias": {
-        "Miercoles": 27,
-        "Jueves": 30,
-        "Lunes": 39,
-        "Viernes": 18,
-        "Martes": 18
+        "Miercoles": 36,
+        "Jueves": 40,
+        "Lunes": 52,
+        "Viernes": 24,
+        "Martes": 24
       }
     },
     "Pablo Spencer|Abril": {
-      "total": 96,
-      "cne": 42,
-      "ctrl": 54,
+      "total": 128,
+      "cne": 56,
+      "ctrl": 72,
       "dias": {
-        "Jueves": 57,
-        "Martes": 24,
-        "Viernes": 15
+        "Jueves": 76,
+        "Martes": 32,
+        "Viernes": 20
       }
     },
     "Paula Besnier|Abril": {
-      "total": 99,
-      "cne": 12,
-      "ctrl": 87,
+      "total": 132,
+      "cne": 16,
+      "ctrl": 116,
       "dias": {
-        "Miercoles": 60,
-        "Lunes": 30,
-        "Martes": 9
+        "Miercoles": 80,
+        "Lunes": 40,
+        "Martes": 12
       }
     },
     "Sebastian Godoy|Abril": {
-      "total": 180,
-      "cne": 51,
-      "ctrl": 129,
+      "total": 240,
+      "cne": 68,
+      "ctrl": 172,
       "dias": {
-        "Miercoles": 78,
-        "Jueves": 42,
-        "Lunes": 18,
-        "Martes": 21,
-        "Viernes": 21
+        "Miercoles": 104,
+        "Jueves": 56,
+        "Lunes": 24,
+        "Martes": 28,
+        "Viernes": 28
       }
     },
     "Juan Cortes|Abril": {
-      "total": 36,
-      "cne": 6,
-      "ctrl": 30,
+      "total": 54,
+      "cne": 9,
+      "ctrl": 45,
       "dias": {}
     }
   }
